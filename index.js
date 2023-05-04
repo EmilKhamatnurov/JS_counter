@@ -24,6 +24,7 @@ function addPools() {
 }
 // функция для обновления счетчика
 function resetCounter() {
+	counter = COUNTER_DEFAULT_VALUE;
 	counterOutputLabelNode.innerHTML = COUNTER_DEFAULT_VALUE;
 	counterResetButtonNode.classList.add('hideButton');
 }
