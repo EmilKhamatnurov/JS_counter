@@ -15,10 +15,23 @@ button {
 	border-radius: 20px;
 	border: none;
 }
-
+/* Прогресс бар */
+.pool-progress-bar {
+	position: relative;
+	margin: 0 auto;
+	max-width: 500px;
+	border: 1px solid #000;
+	margin-top: 15px;
+}
+.pool-progress-bar__color {
+	width: 0%;
+	height: 20px;
+	background-color: #4191FF;
+}
+/* Счетчик */
 .counter {
 	margin: 0 auto;
-	margin-top: 90px;
+	margin-top: 30px;
 	max-width: 500px;
 	display: flex;
 	flex-direction: column;
