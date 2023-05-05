@@ -46,6 +46,7 @@ button {
 
 .counter__plus-button {
 	background: #4191FF;
+	cursor: pointer;
 }
 
 .counter__plus-button:hover {
@@ -54,12 +55,32 @@ button {
 
 .counter__reset-button {
 	background: #D45366;
+	cursor: pointer;
 }
 
 .counter__reset-button:hover {
 	background: #d4536665;
 }
+@keyframes glowing {
+	0% { background-color: #D45366;}
+	50% { background-color: #973645;}
+	100% { background-color: rgb(131, 48, 60);}
+}
 
 .hideButton {
 	display: none;
+}
+.counter__plus-button_not-active {
+	background: #4190ff54;
+	cursor: not-allowed;
+}
+.counter__plus-button_not-active:hover {
+	background: #4190ff54;
+	cursor: not-allowed;
+}
+
+
+.glowingButton {
+	animation: glowing 1300ms infinite;
+	animation-direction: alternate;
 }
