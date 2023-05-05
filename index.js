@@ -17,6 +17,7 @@ counterPlusButtonsNode.forEach(function (Element) {
 //привязал к кнопке функцию обновления счетчинка
 counterResetButtonNode.addEventListener('click', resetCounter)
 
+// ___________FUNCTIONS___________
 //функиця для ввода целевого значения
 function getFinishValue() {
 	do {
